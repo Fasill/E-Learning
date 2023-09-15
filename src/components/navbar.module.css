@@ -1,0 +1,86 @@
+.allNav{
+  /* background-color: aqua; */
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 5rem;
+
+}
+.logo{
+  width: 100%;
+  max-width: 9rem;
+  min-width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.list{
+  display: none;
+}
+
+@media (max-width: 952px) {
+  .list{
+    background-color: #1065F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.4rem;
+    cursor: pointer;
+  }
+  .allNav button{
+    display: none;
+  }
+.allNav ul li{
+  display: none;
+}
+
+.allNav{
+padding: 0 2rem;
+}
+.logo{
+  
+}
+}
+
+
+.allNav ul{
+  width: 100%;
+  max-width: 30rem;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.allNav ul li{
+  list-style: none;
+  cursor: pointer;
+  color: black;
+  font-size: 0.9rem;
+
+}
+
+.allNav ul li:hover{
+  color: #1065F5;
+
+}
+.allNav button{
+  background-color: #1065F5;
+  border: none;
+  height:2.5rem;
+  width:6rem;
+  border-radius: 1.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.list:hover, .allNav button:hover{
+  background-color: #0443b0;
+
+}

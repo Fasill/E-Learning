@@ -1,0 +1,29 @@
+.background{
+  display:flex;
+  align-items:center;
+  /* justify-content:flex-start; */
+  /* justif */
+}
+.backimg1{
+  margin-left:-2rem;
+  margin-top:-3rem;
+
+}
+.backimg2{
+  margin-top:11rem;
+
+  margin-left:-50rem;
+  z-index:-1;
+}
+.backimg3{
+  margin-top:-3rem;
+
+  margin-left:-32rem;
+  z-index:-1;
+}
+.girl{
+  margin-top:7.5rem;
+
+  margin-left:-28.5rem;
+  height:27rem;
+} 

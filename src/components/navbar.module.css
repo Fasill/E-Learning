@@ -9,16 +9,24 @@
 
 }
 .logo{
+  /* background-color: aqua; */
   width: 100%;
-  max-width: 9rem;
-  min-width: 126px;
+  max-width: 11rem;
+  min-width: 172px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* color: #0E8585; */
+  /* color: #64b0b0; */
+
+
 }
 .logo h1 {
-  font-size: 1.5rem;
+  font-size: 40px;
   margin: 0;
+  background: linear-gradient(to bottom, #64b0b0, #0E8585);
+  -webkit-background-clip: text; /* Clip the text to the background */
+  color: transparent; 
 }
 .list{
   display: none;
@@ -26,15 +34,19 @@
 
 @media (max-width: 952px) {
   .list{
-    background-color: #1065F5;
+    background-color: #0E8585;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0.4rem;
     cursor: pointer;
   }
-  .allNav button{
+  .loginNregister button ,.loginNregister a,.cart img{
     display: none;
+  }
+  .cart p{
+    
+    display:none !important;
   }
 .allNav ul li{
   display: none;
@@ -56,31 +68,84 @@ padding: 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 
 }
 .allNav ul li{
   list-style: none;
   cursor: pointer;
-  color: black;
-  font-size: 0.9rem;
+  color: #444444;
+  font-size:20px;
+  font-weight:bold;
+  border-bottom: 3px solid #ffffff;
 
 }
 
 .allNav ul li:hover{
-  color: #1065F5;
+  text-decoration: cunderline;
+  /* text-decoration-color: #0E8585; */
+  border-bottom: 3px solid #0E8585;
+  transition:  border-bottom 0.3s ;
+
+    /* text-decoration-thickness: 3px; Increase the thickness of the underline on hover */
+    /* text-decoration-skip: none; */
+}
+
+
+.loginNregister{
+  width:100%;
+  max-width:16rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  /* background-color:rgb(76, 0, 255); */
 
 }
+.loginNregister a{
+  text-decoration:none;
+  font-size:20px;
+  font-weight:bold;
+  color: #0E8585;
+  cursor:pointer;
+  border-bottom: 2px solid #0E8585;
+}
+.loginNregister a:hover{
+  color:  #0a5f5f;
+
+  border-bottom: 2px solid  #0a5f5f;
+  transition:color 0.3s,  border-bottom 0.3s;
+}
+.cart{
+  display:flex;
+  cursor:pointer;
+  position:relative;
+}
+.cart p{
+  position:absolute;
+  margin-left:2rem;
+  margin-top:-0.1rem;
+  background-color:red;
+  height:1.2rem;
+  width:1.2rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:1rem;
+  color:white;
+}
+
 .allNav button{
-  background-color: #1065F5;
+  background-color: #0E8585;
   border: none;
   height:2.5rem;
   width:6rem;
-  border-radius: 1.5rem;
+  border-radius: 0.4rem;
   color: white;
+  font-size:20px;
   font-weight: bold;
   cursor: pointer;
 }
 .list:hover, .allNav button:hover{
-  background-color: #0443b0;
-
+  background-color:  #0a5f5f;
+  transition:background-color 0.2s ;
 }

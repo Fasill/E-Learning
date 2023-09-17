@@ -1,6 +1,6 @@
 import style from "./navbar.module.css"
-import img1 from  '../assets/images/cart.svg'
-import img2 from  '../assets/images/list.svg'
+import img1 from  '../../assets/images/cart.svg'
+import img2 from  '../../assets/images/list.svg'
 
 export const Navbar = ()=>{
   return(

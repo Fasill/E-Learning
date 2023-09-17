@@ -1,4 +1,4 @@
-import { Navbar } from "../../components/navbar"
+import { Navbar } from "../../components/navbar/navbar"
 import style from "./style.module.css"
 import back1 from "../../assets/images/back1.svg"
 import back2 from "../../assets/images/back2.svg"
@@ -7,8 +7,9 @@ import girl from  "../../assets/images/girl.svg"
 import search from "../../assets/images/search.svg" 
 
 export const Home = ()=>{
+
   return(
-    <div>
+    <div className={style.allHome}>
       <Navbar/>
       <div className = {style.hero}>
         <div className = {style.background}>
@@ -21,12 +22,10 @@ export const Home = ()=>{
         <div className = {style.tittles}>
           <div className = {style.search}>
             <input type = "text" placeholder={`Search for courses `} />
-            {/* <img src = {search} />  */}
+                 <img src = {search} /> 
 
           </div>
-          <div className={style.heroTittle} >
             <h1>Explore what professionals like you are  learning the most</h1>
-          </div>
           <button>Visit Courses</button>
 
         </div>

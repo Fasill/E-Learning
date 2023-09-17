@@ -1,0 +1,20 @@
+.allPartnership{
+  padding: 0 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 155px;
+}
+.udemy{
+  display: grid;
+  gap: -1rem;
+} 
+.udemy img{
+  /* margin-top:6rem ; */
+}
+.khan_Academy{
+  display: flex;
+  gap: 1rem;
+}

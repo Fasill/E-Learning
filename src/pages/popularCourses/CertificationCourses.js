@@ -15,7 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import React, {Component} from "react";
 import Slider from "react-slick";
 
-export const PopularCourses = ()=>{
+export const CertificationCourses = ()=>{
   function Arrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -59,11 +59,10 @@ export const PopularCourses = ()=>{
 
   return(
     <div className={style.AllPage}>
-      <Partnership/>
       <div className={style.PopularCouses}>
         <div className={style.header}>
-          <h1>
-            Popular Courses
+          <h1 className={style.secondHeader}>
+          Certifications Courses
           </h1>
           <div className={style.filtering}>
             <button className={style.proBtn} >Professional Courses</button>

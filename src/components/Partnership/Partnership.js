@@ -9,11 +9,9 @@ export const Partnership = ()=>{
     <div className={style.allPartnership}>
       <div className={style.udemy}>
         <img src={img1}/>
-        <h1>udemy</h1>
       </div>
       <div className={style.khan_Academy}>
         <img src={img2}/>
-        <h1>khan Academy</h1>
       </div>
       <div className={style.cloud_Academy}>
         <img src={img3}/>

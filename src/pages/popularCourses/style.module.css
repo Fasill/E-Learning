@@ -1,0 +1,77 @@
+.AllPage{
+  display: grid;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* grid-gap:rem; */
+}
+.header{
+  padding: 0 5rem;
+  height:155px;
+  display: flex;
+  justify-content:space-between;
+  /* align */
+  /* background-color: blueviolet; */
+}
+.header h1{
+  color:#164A49;
+  font-size: 40px;
+  align-self:center;
+
+  
+}
+.filtering{
+  /* background-color: aqua; */
+  justify-self:flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 70%;
+  align-self:flex-end;
+
+  
+}
+.filtering div{
+  display: flex;
+  align-items: center;
+  justify-content: centter;
+}
+.proBtn{
+  background-color: white;
+  border:none;
+  color:#51A9A9;
+  font-size: 24px;
+  font-weight: bold;
+}
+label {
+  color:#51A9A9;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.filtering p{
+  
+  color:#164A49;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.sort button{
+  border:none;
+  color:#51A9A9;
+  font-size: 16px;
+  font-weight: bold;
+
+
+}
+.slidder{
+  background-color: #164A49;
+  width: 100%;
+  max-width:80rem;
+}
+.slidder div img{
+ width :100%;
+ max-width :100%;
+ 
+ /* height :210px; */
+
+}
